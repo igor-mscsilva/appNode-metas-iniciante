@@ -1,5 +1,7 @@
 ## Linguagem de programação
 
+todo - a fazer
+
 Maneira de dar instruição ao computador.
 Como um lego, ocê irá utilizar peças para criar algoritimos, ou seja, para resolver problemas.
 
@@ -8,7 +10,7 @@ Como um lego, ocê irá utilizar peças para criar algoritimos, ou seja, para re
 
 ## Peças de uma linguagem
 
-- Comentários
+- [x] Comentários
 - Declaração de variáveis (const , let)
 - Operações (atribuição, concatenação, matemáticos, lógicos)
 - Tipos de dados (string, number, boolean)
@@ -21,3 +23,18 @@ Como um lego, ocê irá utilizar peças para criar algoritimos, ou seja, para re
 Coletar os dados
 Processar os dados ( manipular, alterar ...)
 Apresentar os dados
+
+## Escopo e Variáveis
+
+Variáveis globais e locais
+Constantes
+
+## Tipos de dados:
+
+Strings (textos): "" '' ``
+Number: 2 1.4
+Function
+
+## Opedadores
+
+Operadores de atribuição de valor
