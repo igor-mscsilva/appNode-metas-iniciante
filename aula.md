@@ -39,8 +39,9 @@ Strings (textos): "" '' ``
 
 ## Opedadores
 
-- [x] Operadores de atribuição de valor
-- [x] Operador de concatenação
+- [x] Operadores de atribuição de valor =
+- [x] Operador de concatenação +
+- [x] Operadores de comparação:  igual 1==2 |  Diferente 1!=2 | 1 < 2 
 
 ## Estruturas de dados:
 
@@ -80,12 +81,16 @@ start()
 # Condicionais
 
 - [x] switch
+- [x] if/else
 
 
 ## Módulos em Node.Js:
 
 - [x] Importação de módulos (riquere, CommonJs)
 - [x] Biblioteca 'inquirer' para criar prompts interativos
+
+## Programação assíncrona e Promises:
+- [x] Uso de funções assíncronas (async/await)
 
 ## Exemplos
 
