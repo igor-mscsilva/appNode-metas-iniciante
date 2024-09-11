@@ -81,6 +81,12 @@ start()
 
 - [x] switch
 
+
+## Módulos em Node.Js:
+
+- [x] Importação de módulos (riquere, CommonJs)
+- [x] Biblioteca 'inquirer' para criar prompts interativos
+
 ## Exemplos
 
 
