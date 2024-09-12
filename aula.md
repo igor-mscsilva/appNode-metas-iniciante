@@ -90,6 +90,13 @@ start()
 
 - [x] Importação de módulos (riquere, CommonJs)
 - [x] Biblioteca 'inquirer' para criar prompts interativos
+- [x] FS (file system)
+
+## JSON
+
+- [x] JavaScript Object Notation (.json)
+- [x] JSON.parse(): trandorma JSON para JS
+- [x] JSON.stringify(): transforma de JS para JSON
 
 ## Programação assíncrona e Promises:
 - [x] Uso de funções assíncronas (async/await)
