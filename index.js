@@ -60,11 +60,31 @@ const metasRealizadas = async () => {
     }
 
     await select({
-        message: "Metas Realizadas!",
+        message: "Metas Realizadas!" + realizadas.length,
         choices: [...realizadas]
     })
     
 }
+//Agua [] - caminhar [] - cantar[x]
+
+const metasAbertas = async () => {
+    const abertas = meta.filter((meta) =>{
+        return meta.checked != true
+    })
+
+    if(abertas.length == 0){
+        console.log("Não existe metas abertas! ;)")
+        return
+    }
+
+    await select({
+        message: "Metas Abertas" + abertas.length,
+        choices: [...abertas]
+    })
+
+}
+   
+
 
 const start = async () => {
     
@@ -104,6 +124,10 @@ const start = async () => {
             break
             case "realizadas":
                 await metasRealizadas()
+            break
+
+            case "abertas":
+                await metasAbertas()
             break
 
             case "sair":
