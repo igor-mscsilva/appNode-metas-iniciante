@@ -42,12 +42,14 @@ Strings (textos): "" '' ``
 - [x] Operadores de atribuição de valor =
 - [x] Operador de concatenação +
 - [x] Operadores de comparação:  igual 1==2 |  Diferente 1!=2 | 1 < 2 
+- [] Spread operator: ...
 
 ## Estruturas de dados:
 
 ## Array
 
 - [x] Uma lista que contém qualque tipo de dado
+- [x] Métodos de array: push, [find, forEach, filter] : HOF (Higher Order Functions)
 
 ### Objetos:
 
