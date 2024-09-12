@@ -3,7 +3,7 @@
   - [x] - Metas realizadas
   - [x]- Metas abertas
 - [x] Marcar/Desmarcar metas realizadas
-- Remover metas
+- [x] Remover metas
 - Sistema de mensagem
 
 Array -let metas = ["Mayk", "alo"]
