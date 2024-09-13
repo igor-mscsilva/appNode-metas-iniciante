@@ -1,4 +1,5 @@
 const { select, input, checkbox } = require('@inquirer/prompts')
+const fs = require("fs"). promises
 
 let mensagem = "Bem vindo  ao app de Metas";
 
@@ -25,6 +26,10 @@ const cadastrarMeta = async () => {
 }
 
 const listarMetas = async() =>{
+    if(metas.length == 0){
+        mensagem = "Não existe metas!"
+        return
+    }
     const respostas = await checkbox ({
         message: "Use as setas para mudar de meta, o espaço para marcar e desmarcar e o Enter para finalizar essa etapa. ",
         choices: [...metas],
@@ -53,6 +58,10 @@ const listarMetas = async() =>{
 }
 
 const metasRealizadas = async () => {
+    if(metas.length == 0){
+        mensagem = "Não existe metas!"
+        return
+    }
     const realizadas = metas.filter((meta) => {
         return meta.checked
     })
@@ -71,6 +80,10 @@ const metasRealizadas = async () => {
 //Agua [] - caminhar [] - cantar[x]
 
 const metasAbertas = async () => {
+    if(metas.length == 0){
+        mensagem = "Não existe metas!"
+        return
+    }
     const abertas = meta.filter((meta) =>{
         return meta.checked != true
     })
@@ -88,6 +101,10 @@ const metasAbertas = async () => {
 }
 
 const deletarMetas = async () => {
+    if(metas.length == 0){
+        mensagem = "Não existe metas!"
+        return
+    }
     const metasDesmarcadas = meta.map((meta) =>{
         return { value: meta.value, checked: false }
     })
